@@ -10,3 +10,9 @@ def greet(request):
     if request.method== 'GET':
         greet = 'Public Tenant'
         return Response(greet)
+
+@api_view(['GET','POST'])
+def greet123(request):
+    if request.method== 'GET':
+        greet = 'Public Tenant Git checkup'
+        return Response(greet)

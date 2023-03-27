@@ -54,3 +54,4 @@ def greetings3(request):
                 inner join private_student std on std.college_id_id=clg.id  ''')
             data=dictfetchall(cursor)
             return Response(data)
+            return Response(data)

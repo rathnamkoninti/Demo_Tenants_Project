@@ -14,5 +14,6 @@ def greet(request):
 @api_view(['GET','POST'])
 def greet123(request):
     if request.method== 'GET':
-        greet = 'Public Tenant Git checkup'
-        return Response(greet)
+        ss='fdlksfjksdlfjdjkflsdjkfjdkslfdklsfkldsfjkdsjklfdsfdskjnfjsdknjsadngjdsngdsm,g'
+        greet = 'gfdklgnfdlkgnfdk Tenant Git checkupgdsjghsjkgnsadghjksdgsahd'
+        return Response(greet) gfdglkfkdgg
